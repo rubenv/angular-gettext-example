@@ -1,0 +1,25 @@
+{
+  "name": "todomvc-angular-gettext-example",
+  "version": "0.0.0",
+  "description": "This is an example of how to use angular-gettext, based on TodoMVC.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rubenv/angular-gettext-example.git"
+  },
+  "author": "Ruben Vermeersch <ruben@savanne.be>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rubenv/angular-gettext-example/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-angular-gettext": "0.0.6"
+  }
+}
