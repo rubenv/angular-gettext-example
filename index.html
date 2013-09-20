@@ -12,12 +12,12 @@
 			<header id="header">
 				<h1>todos</h1>
 				<form id="todo-form" ng-submit="addTodo()">
-					<input id="new-todo" placeholder="What needs to be done?" ng-model="newTodo" autofocus>
+					<input id="new-todo" placeholder="{{'What needs to be done?'|translate}}" ng-model="newTodo" autofocus>
 				</form>
 			</header>
 			<section id="main" ng-show="todos.length" ng-cloak>
 				<input id="toggle-all" type="checkbox" ng-model="allChecked" ng-click="markAll(allChecked)">
-				<label for="toggle-all">Mark all as complete</label>
+				<label for="toggle-all" translate>Mark all as complete</label>
 				<ul id="todo-list">
 					<li ng-repeat="todo in todos | filter:statusFilter" ng-class="{completed: todo.completed, editing: todo == editedTodo}">
 						<div class="view">
@@ -32,25 +32,23 @@
 				</ul>
 			</section>
 			<footer id="footer" ng-show="todos.length" ng-cloak>
-				<span id="todo-count"><strong>{{remainingCount}}</strong>
-					<ng-pluralize count="remainingCount" when="{ one: 'item left', other: 'items left' }"></ng-pluralize>
-				</span>
+				<span id="todo-count" translate translate-n="remainingCount" translate-plural="&lt;strong&gt;{{remainingCount}}&lt;/strong&gt; items left"><strong>{{remainingCount}}</strong> item left</span>
 				<ul id="filters">
 					<li>
-						<a ng-class="{selected: location.path() == '/'} " href="#/">All</a>
+						<a ng-class="{selected: location.path() == '/'} " href="#/" translate>All</a>
 					</li>
 					<li>
-						<a ng-class="{selected: location.path() == '/active'}" href="#/active">Active</a>
+						<a ng-class="{selected: location.path() == '/active'}" href="#/active" translate>Active</a>
 					</li>
 					<li>
-						<a ng-class="{selected: location.path() == '/completed'}" href="#/completed">Completed</a>
+						<a ng-class="{selected: location.path() == '/completed'}" href="#/completed" translate>Completed</a>
 					</li>
 				</ul>
-				<button id="clear-completed" ng-click="clearCompletedTodos()" ng-show="completedCount">Clear completed ({{completedCount}})</button>
+				<button id="clear-completed" ng-click="clearCompletedTodos()" ng-show="completedCount" translate>Clear completed ({{completedCount}})</button>
 			</footer>
 		</section>
 		<footer id="info">
-			<p>Double-click to edit a todo</p>
+			<p translate>Double-click to edit a todo</p>
 			<p>Credits:
 				<a href="http://twitter.com/cburgdorf">Christoph Burgdorf</a>,
 				<a href="http://ericbidelman.com">Eric Bidelman</a>,
