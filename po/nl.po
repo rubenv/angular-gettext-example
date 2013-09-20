@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ruben Vermeersch <ruben@rocketeer.be>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl\n"
+
+#: index.html
+msgid "Mark all as complete"
+msgstr "Markeer als afgewerkt"
+
+#: index.html
+msgid "<strong>{{remainingCount}}</strong> item left"
+msgid_plural "<strong>{{remainingCount}}</strong> items left"
+msgstr[0] "<strong>{{remainingCount}}</strong> todo te gaan"
+msgstr[1] "<strong>{{remainingCount}}</strong> todos te gaan"
+
+#: index.html
+msgid "All"
+msgstr "Alle"
+
+#: index.html
+msgid "Active"
+msgstr "Actief"
+
+#: index.html
+msgid "Completed"
+msgstr "Afgewerkt"
+
+#: index.html
+msgid "Clear completed ({{completedCount}})"
+msgstr "Wis afgewerkte taken ({{completedCount}})"
+
+#: index.html
+msgid "Double-click to edit a todo"
+msgstr "Dubbelklik om een todo te bewerken"
+
+#: index.html
+msgid "What needs to be done?"
+msgstr "Wat moet gedaan worden?"
