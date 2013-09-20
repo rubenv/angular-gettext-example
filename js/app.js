@@ -8,3 +8,7 @@
  * @type {angular.Module}
  */
 var todomvc = angular.module('todomvc', ['gettext']);
+
+todomvc.run(function (gettextCatalog) {
+    gettextCatalog.currentLanguage = 'nl';
+});

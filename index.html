@@ -10,7 +10,10 @@
 	<body>
 		<section id="todoapp" ng-controller="TodoCtrl">
 			<header id="header">
-				<h1>todos</h1>
+				<h1>
+					todos
+					<select ng-model="gettextCatalog.currentLanguage" ng-options="key as value for (key, value) in languages"></select>
+				</h1>
 				<form id="todo-form" ng-submit="addTodo()">
 					<input id="new-todo" placeholder="{{'What needs to be done?'|translate}}" ng-model="newTodo" autofocus>
 				</form>
@@ -62,6 +65,7 @@
 		<script src="bower_components/angular/angular.js"></script>
 		<script src="bower_components/angular-gettext/dist/angular-gettext.min.js"></script>
 		<script src="js/app.js"></script>
+		<script src="js/translations.js"></script>
 		<script src="js/controllers/todoCtrl.js"></script>
 		<script src="js/services/todoStorage.js"></script>
 		<script src="js/directives/todoFocus.js"></script>
