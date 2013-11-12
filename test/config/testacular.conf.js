@@ -5,7 +5,7 @@ files = [
   JASMINE_ADAPTER,
   'bower_components/jquery/jquery.js',
   'bower_components/angular/angular.js',
-  'bower_components/angular/angular-mocks.js',
+  'bower_components/angular-mocks/angular-mocks.js',
   'bower_components/angular-gettext/dist/angular-gettext.js',
   'js/**/*.js',
   'test/unit/**/*.js'
