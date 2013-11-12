@@ -12,8 +12,6 @@ Things to watch out for:
 
 Full usage instructions can be found at [http://angular-gettext.rocketeer.be/](http://angular-gettext.rocketeer.be/).
 
-Note: This example uses the `PatternConsulting/bower-angular` bower repository, to be able to use Angular.JS `1.1.*`.
-
 ---
 
 Original README below:
