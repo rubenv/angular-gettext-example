@@ -85,9 +85,20 @@ todomvc.controller('TodoCtrl', function TodoCtrl($scope, $location, todoStorage,
 		});
 	};
 
-    $scope.gettextCatalog = gettextCatalog;
+    // Language switcher
     $scope.languages = {
+        current: gettextCatalog.currentLanguage,
+        available: {
         'nl': 'Nederlands',
         'en': 'English'
+        }
     };
+
+    $scope.$watch('languages.current', function (lang) {
+        if (!lang) {
+            return;
+        }
+
+        gettextCatalog.setCurrentLanguage(lang);
+    });
 });

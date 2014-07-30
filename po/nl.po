@@ -1,26 +1,26 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: TodoMVC\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Ruben Vermeersch <ruben@rocketeer.be>\n"
 "Language-Team: \n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.7\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: nl\n"
 
 #: index.html
 msgid "Mark all as complete"
 msgstr "Markeer als afgewerkt"
 
 #: index.html
-msgid "<strong>{{remainingCount}}</strong> item left"
-msgid_plural "<strong>{{remainingCount}}</strong> items left"
-msgstr[0] "<strong>{{remainingCount}}</strong> todo te gaan"
-msgstr[1] "<strong>{{remainingCount}}</strong> todos te gaan"
+msgid "{{$count}} item left"
+msgid_plural "{{$count}} items left"
+msgstr[0] "{{$count}} item te gaan"
+msgstr[1] "{{$count}} items te gaan"
 
 #: index.html
 msgid "All"
@@ -45,3 +45,8 @@ msgstr "Dubbelklik om een todo te bewerken"
 #: index.html
 msgid "What needs to be done?"
 msgstr "Wat moet gedaan worden?"
+
+#~ msgid "<strong>{{remainingCount}}</strong> item left"
+#~ msgid_plural "<strong>{{remainingCount}}</strong> items left"
+#~ msgstr[0] "<strong>{{remainingCount}}</strong> todo te gaan"
+#~ msgstr[1] "<strong>{{remainingCount}}</strong> todos te gaan"

@@ -6,8 +6,8 @@ msgid "Mark all as complete"
 msgstr ""
 
 #: index.html
-msgid "<strong>{{remainingCount}}</strong> item left"
-msgid_plural "<strong>{{remainingCount}}</strong> items left"
+msgid "{{$count}} item left"
+msgid_plural "{{$count}} items left"
 msgstr[0] ""
 msgstr[1] ""
 
