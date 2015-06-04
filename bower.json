@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "todomvc-common": "~0.1.4",
-    "angular-gettext": "~1.0.0",
+    "angular-gettext": "~2.1.0",
     "angular": "~1.2.21",
     "angular-mocks": "~1.2.21"
   }

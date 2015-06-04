@@ -1,36 +1,39 @@
 msgid ""
 msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
 
-#: index.html
+#: index.html:44
+msgid "Active"
+msgstr ""
+
+#: index.html:41
+msgid "All"
+msgstr ""
+
+#: index.html:50
+msgid "Clear completed ({{completedCount}})"
+msgstr ""
+
+#: index.html:47
+msgid "Completed"
+msgstr ""
+
+#: index.html:54
+msgid "Double-click to edit a todo"
+msgstr ""
+
+#: index.html:23
 msgid "Mark all as complete"
 msgstr ""
 
-#: index.html
+#: index.html:18
+msgid "What needs to be done?"
+msgstr ""
+
+#: index.html:38
 msgid "{{$count}} item left"
 msgid_plural "{{$count}} items left"
 msgstr[0] ""
 msgstr[1] ""
-
-#: index.html
-msgid "All"
-msgstr ""
-
-#: index.html
-msgid "Active"
-msgstr ""
-
-#: index.html
-msgid "Completed"
-msgstr ""
-
-#: index.html
-msgid "Clear completed ({{completedCount}})"
-msgstr ""
-
-#: index.html
-msgid "Double-click to edit a todo"
-msgstr ""
-
-#: index.html
-msgid "What needs to be done?"
-msgstr ""

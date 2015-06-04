@@ -12,39 +12,39 @@ msgstr ""
 "X-Generator: Poedit 1.6.7\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: index.html
+#: index.html:44
+msgid "Active"
+msgstr "Actief"
+
+#: index.html:41
+msgid "All"
+msgstr "Alle"
+
+#: index.html:50
+msgid "Clear completed ({{completedCount}})"
+msgstr "Wis afgewerkte taken ({{completedCount}})"
+
+#: index.html:47
+msgid "Completed"
+msgstr "Afgewerkt"
+
+#: index.html:54
+msgid "Double-click to edit a todo"
+msgstr "Dubbelklik om een todo te bewerken"
+
+#: index.html:23
 msgid "Mark all as complete"
 msgstr "Markeer als afgewerkt"
 
-#: index.html
+#: index.html:18
+msgid "What needs to be done?"
+msgstr "Wat moet gedaan worden?"
+
+#: index.html:38
 msgid "{{$count}} item left"
 msgid_plural "{{$count}} items left"
 msgstr[0] "{{$count}} item te gaan"
 msgstr[1] "{{$count}} items te gaan"
-
-#: index.html
-msgid "All"
-msgstr "Alle"
-
-#: index.html
-msgid "Active"
-msgstr "Actief"
-
-#: index.html
-msgid "Completed"
-msgstr "Afgewerkt"
-
-#: index.html
-msgid "Clear completed ({{completedCount}})"
-msgstr "Wis afgewerkte taken ({{completedCount}})"
-
-#: index.html
-msgid "Double-click to edit a todo"
-msgstr "Dubbelklik om een todo te bewerken"
-
-#: index.html
-msgid "What needs to be done?"
-msgstr "Wat moet gedaan worden?"
 
 #~ msgid "<strong>{{remainingCount}}</strong> item left"
 #~ msgid_plural "<strong>{{remainingCount}}</strong> items left"
